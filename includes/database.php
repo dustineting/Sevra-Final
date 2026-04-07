@@ -1,9 +1,8 @@
 <?php
-$host = "gondola.proxy.rlwy.net";
-$dbname = "railway";
+$host = "localhost";
+$dbname = "sevra_db";
 $username = "root";
-$password = "ZgwTrvoKHyrZEchBrDcuRrNyagWqIlFf";
-$port = 11930;
+$password = "";
 
 try {
     $pdo = new PDO("mysql:host=$host;port=$port;dbname=$dbname;charset=utf8mb4", $username, $password);
