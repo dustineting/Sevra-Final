@@ -1,8 +1,9 @@
 <?php
-$host = "localhost";
+$host = "db";
 $dbname = "sevra_db";
 $username = "root";
-$password = "";
+$password = "root";
+$port = "3306";
 
 try {
     $pdo = new PDO("mysql:host=$host;port=$port;dbname=$dbname;charset=utf8mb4", $username, $password);
